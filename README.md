@@ -1,3 +1,9 @@
+原库地址：https://github.com/georgezhao2010/peacefair_energy
+
+作者久未更新，根据Pull requests修改
+
+------------------------以下原说明------------------------
+
 # Peacefair Energy Monitor
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
