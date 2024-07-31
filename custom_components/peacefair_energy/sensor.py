@@ -1,3 +1,6 @@
+from homeassistant.components.sensor import (
+    SensorDeviceClass
+)
 from homeassistant.const import (
     STATE_UNKNOWN,
     UnitOfElectricPotential,
@@ -5,15 +8,6 @@ from homeassistant.const import (
     UnitOfPower,
     UnitOfEnergy,
     UnitOfFrequency
-)
-from homeassistant.components.sensor import (
-    DOMAIN as SENSOR_PLATFORM,
-    RestoreSensor,
-    SensorDeviceClass,
-    SensorEntity,
-    SensorEntityDescription,
-    SensorExtraStoredData,
-    SensorStateClass,
 )
 from .const import (
     DOMAIN,
